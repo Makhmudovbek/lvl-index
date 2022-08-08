@@ -26,6 +26,7 @@
 .card_img2{
     width: 300px;
     height: 300px;
+    transition: all 1s;
 }
 .img_copy{
     opacity: 0;
@@ -55,6 +56,7 @@
     position: absolute;
     left: 50px;
     top: 50px;
+    transition: all 1s;
 }
 .card_figure2{
     width: 50px;
@@ -64,6 +66,7 @@
     position: absolute;
     right: 50px;
     top: 50px;
+    transition: all 1s;
 }
 .card_figure3{
     width: 50px;
@@ -73,6 +76,7 @@
     position: absolute;
     left: 50px;
     bottom: 50px;
+    transition: all 1s;
 }
 .card_figure4{
     width: 50px;
@@ -82,6 +86,7 @@
     position: absolute;
     right: 50px;
     bottom: 50px;
+    transition: all 1s;
 }
 .card_aside:hover .card_figure1 {
     width: 80px;
@@ -89,7 +94,6 @@
     left: 210px;
     top: 10px;
     transform: rotateY(180deg);
-    transition: all 1s;
 }
 .card_aside:hover .card_figure2{
     width: 80px;
@@ -97,7 +101,6 @@
     right: 10px;
     top: 210px;
     transform: rotateX(180deg);
-    transition: all 1s;
 }
 .card_aside:hover .card_figure3{
     width: 80px;
@@ -105,7 +108,6 @@
     left: 10px;
     bottom: 210px;
     transform: rotateX(180deg);
-    transition: all 1s;
 }
 .card_aside:hover .card_figure4{
     width: 80px;
@@ -113,8 +115,6 @@
     right: 210px;
     bottom: 10px;
     transform: rotateY(180deg);
-    transition: all 1s;
-    
 }
 .card_aside:hover .card_img{
     width: 250px;
@@ -125,7 +125,6 @@
     transition: all 1s;
 }
 .card_aside:hover .card_img2{
-    transition: all 1s;
     opacity: 0;
 }
 .card_aside:hover .img_copy{
